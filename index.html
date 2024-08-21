@@ -16,31 +16,56 @@
         font-family: "Manrope", sans-serif;
     }
     </style>
-    <body>
-        <header class="w-[90%] mx-auto">
+    <body class="bg-[#F6F6F6] ">
+        <header class="w-[90%] md:max-w-[1170px] mx-auto">
             <nav class="flex items-center justify-between mt-8">
                 <h1 class="logo text-2xl">
                     <span
                         class="inline-flex mr-2 w-12 h-12 bg-[#ABEF5F] rounded-full flex items-center justify-center">
                         <i class="fa-solid fa-arrow-right rotate-[-45deg]"></i>
-                    </span><span class="font-extrabold">Rinterio</span>
+                    </span><span class="font-black text-3xl ">Rinterio</span>
                 </h1>
-                <div class="menu block md:hidden">
+
+                <ul
+                    class="hidden md:flex items-center gap-8">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+                <div class="hidden md:flex gap-2 items-center justify-center">
                     <i
-                        class="fa-solid fa-bars w-12 h-12 rounded-full  flex items-center justify-center border-2 border-blck"></i>
+                        class="fa-solid fa-magnifying-glass w-12 h-12  border-2 hidden md:flex md:items-center md:justify-center rounded-full bg-white"></i>
+                    <i
+                        class="fa-solid fa-cart-shopping w-12 h-12  border-2 hidden md:flex md:items-center md:justify-center rounded-full bg-white"></i>
+                    <div class="flex items-center justify-between gap-3 bg-[#ABEF5F] px-4 py-2 rounded-full">
+                        <h1 class="text-xl font-bold">Book Consult</h1>
+                        <span
+                            class="inline-flex mr-2 w-12 h-12  bg-[#222] rounded-full flex items-center justify-center">
+                            <i
+                                class="fa-solid fa-arrow-right rotate-[-45deg] text-white"></i>
+                        </span>
+                    </div>
                 </div>
+
+                <i
+                    class="fa-solid fa-bars w-12 h-12 rounded-full md:hidden  flex items-center justify-center border-2 bg-white"></i>
             </nav>
             <section
-                class="text-center flex items-center justify-between flex-col gap-2">
-                <img class="w-[90%] mx-auto" src="./assets/banner.png"
+                class="text-center flex items-center justify-between flex-col gap-6">
+                <img class="w-[90%] md:w-[590px] md:h-auto mx-auto"
+                    src="./assets/banner.png"
                     alt="hero_section_image">
-                <h1 class="text-3xl font-black">A barn house of this
+                <h1 class="text-3xl font-black md:text-6xl">A barn house of this
                     design has a striking appearance</h1>
-                <p>The barn house captivates with its blend of rustic charm and
+                <p class="md:text-xl md:w-[90%]">The barn house captivates with
+                    its blend of rustic charm and
                     modern sophistication, featuring weathered wood, sleek metal
                     accents, and large windows that flood the space with natural
                     light.</p>
-                <button class="px-12 border-2 border-[#ABEF5F] mt-4 py-2 rounded-full flex items-center justify-between gap-2 bg-[#acef5f80]">
+                <button
+                    class="px-12 border-2 border-[#ABEF5F] mt-4 py-2 rounded-full flex items-center justify-between gap-2 bg-[#acef5f80]">
                     <h1 class="font-semibold text-xl">View Details</h1>
                     <span
                         class="mr-2 w-8 h-8 bg-[#ABEF5F] rounded-full flex items-center justify-center">
