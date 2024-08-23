@@ -26,13 +26,9 @@
         transform: rotate(380deg);
         transition: all ease-in-out 0.5s;
     }
-
-    .contact{
-        background-image: url(./assets/bg.jpg);
-    }
     </style>
     <body class="bg-[#fff] ">
-         <header id="home" class="w-[90%] md:max-w-[1250px] mx-auto">
+        <header id="home" class="w-[90%] md:max-w-[1250px] mx-auto">
             <nav class="flex items-center justify-between mt-8">
                 <h1 class="logo text-2xl">
                     <span
@@ -43,18 +39,28 @@
 
                 <ul
                     class="hidden md:flex items-center gap-8">
-                    <li><a class="active font-bold text-base" href="/">Home</a></li>
-                    <li><a href="#service">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="/">Blogs</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a class="active font-bold text-base"
+                            href="/">Home</a></li>
+                    <li><a
+                            class="hover:border-b-2 hover:border-[#ABEF5F] pb-1 px-1 transition-all"
+                            href="#service">Services</a></li>
+                    <li><a
+                            class="hover:border-b-2 hover:border-[#ABEF5F] pb-1 px-1 transition-all"
+                            href="#portfolio">Portfolio</a></li>
+                    <li><a
+                            class="hover:border-b-2 hover:border-[#ABEF5F] pb-1 px-1 transition-all"
+                            href="/">Blogs</a></li>
+                    <li><a
+                            class="hover:border-b-2 hover:border-[#ABEF5F] pb-1 px-1 transition-all"
+                            href="#contact">Contact Us</a></li>
                 </ul>
                 <div class="hidden md:flex gap-2 items-center justify-center">
                     <i
                         class="fa-solid fa-magnifying-glass w-12 h-12 hover:bg-[#F4F4F4] cursor-pointer border-2 hidden md:flex md:items-center md:justify-center rounded-full bg-white"></i>
                     <i
                         class="fa-solid fa-cart-shopping w-12 h-12 hover:bg-[#F4F4F4] cursor-pointer  border-2 hidden md:flex md:items-center md:justify-center rounded-full bg-white"></i>
-                    <div class="book flex items-center justify-between gap-3 cursor-pointer bg-[#ABEF5F] px-4 py-2 rounded-full">
+                    <div
+                        class="book flex items-center justify-between gap-3 cursor-pointer bg-[#ABEF5F] px-4 py-2 rounded-full">
                         <h1 class="text-xl font-bold">Book Consult</h1>
                         <span
                             class="inline-flex mr-2 w-12 h-12  bg-[#222] rounded-full flex items-center justify-center">
@@ -64,26 +70,31 @@
                     </div>
                 </div>
 
-                    <div class="dropdown dropdown-end md:hidden block">
-                        <i
-                        class="fa-solid fa-bars w-12 h-12 rounded-full md:hidden flex items-center justify-center border-2 bg-white btn m-1" tabindex="0"  role="button"></i>
-                        <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-                            <li><a class="active font-bold text-base" href="#home">Home</a></li>
-                            <li><a href="#service">Services</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="/">Blogs</a></li>
-                            <li><a href="#contact">Contact Us</a></li>
-                        </ul>
-                      </div>
+                <div class="dropdown dropdown-end md:hidden block">
+                    <i
+                        class="fa-solid fa-bars w-12 h-12 rounded-full md:hidden flex items-center justify-center border-2 bg-white btn m-1"
+                        tabindex="0" role="button"></i>
+                    <ul tabindex="0"
+                        class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+                        <li><a class="active font-bold text-base"
+                                href="#home">Home</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="/">Blogs</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
             </nav>
-            <section 
+            <section
                 class="text-center flex items-center justify-between flex-col gap-6">
                 <img class="w-[90%] md:w-[590px] md:h-auto mx-auto"
                     src="./assets/banner.png"
                     alt="hero_section_image">
                 <h1 class="text-3xl font-black md:text-6xl">A barn house of this
                     design has a striking appearance</h1>
-                <p class="md:text-xl md:w-[90%]">Drive more traffic, generate more leads, and close more deals with our proven real estate digital marketing strategies.</p>
+                <p class="md:text-xl md:w-[90%]">Drive more traffic, generate
+                    more leads, and close more deals with our proven real estate
+                    digital marketing strategies.</p>
                 <button
                     class="px-12 border-2 border-[#ABEF5F] mt-4 py-2 rounded-full hover:gap-4 transition-all flex items-center justify-between gap-2 bg-[#acef5f80]">
                     <h1 class="font-semibold text-xl">View Details</h1>
@@ -93,145 +104,209 @@
                     </span>
                 </button>
             </section>
-        </header>      
-         <main id="service" class="bg-[#F4F4F4] mt-28 md:pt-28">
-             <section class="w-[90%] md:max-w-[1250px] mx-auto relative py-4 md:pt">
-                  <img class="hidden md:block absolute top-0 -left-[5%]" src="./assets/Vector.png" alt>
+        </header>
+        <main id="service" class="bg-[#F4F4F4] mt-28 md:pt-28">
+            <section
+                class="w-[90%] md:max-w-[1250px] mx-auto relative py-4 md:pt">
+                <img class="hidden md:block absolute top-0 -left-[5%]"
+                    src="./assets/Vector.png" alt>
                 <div
                     class="flex  justify-between flex-col md:flex-row md:py-12 md:gap-12">
-                    <div class="text-center md:flex flex-col justify-between md:items-start ">
+                    <div
+                        class="text-center md:flex flex-col justify-between md:items-start ">
                         <button class="bg-white px-6  py-2 rounded-full mb-4">
                             <i
                                 class="fa-solid fa-arrow-right mr-2"></i>About
                             Us</button>
                         <div class="flex flex-col gap-4 md:text-start">
-                            <h1 class="text-2xl font-black md:text-4xl md:font-black">We design
+                            <h1
+                                class="text-2xl font-black md:text-4xl md:font-black">We
+                                design
                                 thoughtful,
                                 liveable spaces</h1>
-                            <p class="md:text-base">We’re on a mission to start a conversation with you and your customers in this fast connected world. Let’s discover, build and grow your digital business.</p>
+                            <p class="md:text-base">We’re on a mission to start
+                                a conversation with you and your customers in
+                                this fast connected world. Let’s discover, build
+                                and grow your digital business.</p>
                         </div>
                         <div class="flex flex-col gap-4 my-4">
-                            <div class="flex items-start p-6 bg-white rounded-lg gap-2">
-                                <img class="w-[40px] md:w-[64px]" src="./assets/commercial.png" alt>
+                            <div
+                                class="flex items-start p-6 bg-white rounded-lg gap-2">
+                                <img class="w-[40px] md:w-[64px]"
+                                    src="./assets/commercial.png" alt>
                                 <div class="text-start">
-                                    <h6 class="font-bold md:text-xl">Commercial</h6>
-                                    <p class="text-[#737373] md:text-base">Recommendations are based on your location and search activity, such as the homes you've viewed and saved .</p>
+                                    <h6
+                                        class="font-bold md:text-xl">Commercial</h6>
+                                    <p
+                                        class="text-[#737373] md:text-base">Recommendations
+                                        are based on your location and search
+                                        activity, such as the homes you've
+                                        viewed and saved .</p>
                                 </div>
                             </div>
-                            <div class="flex items-start p-6 bg-white rounded-lg gap-2">
-                                <img class="w-[40px] md:w-[64px]" src="./assets/residential.png" alt>
+                            <div
+                                class="flex items-start p-6 bg-white rounded-lg gap-2">
+                                <img class="w-[40px] md:w-[64px]"
+                                    src="./assets/residential.png" alt>
                                 <div class="text-start">
-                                    <h6 class="font-bold md:text-xl">Residential</h6>
-                                    <p class="text-[#737373] md:text-base">And the filters you've used. We use this information to bring similar homes to your attention, so you don't miss out..</p>
+                                    <h6
+                                        class="font-bold md:text-xl">Residential</h6>
+                                    <p class="text-[#737373] md:text-base">And
+                                        the filters you've used. We use this
+                                        information to bring similar homes to
+                                        your attention, so you don't miss
+                                        out..</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                     <img class="h-[223px] w-full md:h-[570px] bg-center bg-no-repeat bg-cover rounded-2xl" src="./assets/Rectangle.png" alt="">
-                </div> 
-                 <section id="service" class="my-8 md:my-28">
+                    <img
+                        class="h-[223px] w-full md:h-[570px] bg-center bg-no-repeat bg-cover rounded-2xl"
+                        src="./assets/Rectangle.png" alt>
+                </div>
+                <section id="service" class="my-8 md:my-28">
                     <div class="text-center">
                         <button class="bg-white px-6 py-2 rounded-full mb-4">
                             <i
                                 class="fa-solid fa-arrow-right mr-2"></i>How we
                             works</button>
-                        <h1 class="text-2xl font-black md:text-4xl">Our Works Process</h1>
-                        <p class="py-5 md:text-xl md:w-[70%] md:mx-auto">Sustainability is evident in the design, incorporating wooden screens and green spaces for a perfect blend of light, privacy, and community interaction.</p>
+                        <h1 class="text-2xl font-black md:text-4xl">Our Works
+                            Process</h1>
+                        <p
+                            class="py-5 md:text-xl md:w-[70%] md:mx-auto">Sustainability
+                            is evident in the design, incorporating wooden
+                            screens and green spaces for a perfect blend of
+                            light, privacy, and community interaction.</p>
                     </div>
                     <div class="grid grid-cols-1 gap-4 md:grid-cols-4 ">
-                        <div class="bg-[#E7C1D3] p-6 hover:scale-105 transition-all hover:shadow-2xl rounded-2xl">
-                            <img src="./assets/concept.png" alt="">
+                        <div
+                            class="bg-[#E7C1D3] p-6 hover:scale-105 transition-all hover:shadow-2xl rounded-2xl">
+                            <img src="./assets/concept.png" alt>
                             <h1 class="text-xl font-black">Concept</h1>
-                            <p>we make every concepts cline and relatable with your like...</p>
+                            <p>we make every concepts cline and relatable with
+                                your like...</p>
                         </div>
-                        <div class="bg-[#EFDA6E] p-6 hover:scale-105 transition-all hover:shadow-2xl rounded-2xl">
-                            <img src="./assets/flow-chart.png" alt="">
+                        <div
+                            class="bg-[#EFDA6E] p-6 hover:scale-105 transition-all hover:shadow-2xl rounded-2xl">
+                            <img src="./assets/flow-chart.png" alt>
                             <h1 class="text-xl font-black">Design Process</h1>
-                            <p>we believe that a wonderful humane can make a dutiful society, that's why... </p>
+                            <p>we believe that a wonderful humane can make a
+                                dutiful society, that's why... </p>
                         </div>
-                        <div class="bg-[#A4DAC3] p-6 hover:scale-105 transition-all hover:shadow-2xl rounded-2xl">
-                            <img src="./assets/vision.png" alt="">
+                        <div
+                            class="bg-[#A4DAC3] p-6 hover:scale-105 transition-all hover:shadow-2xl rounded-2xl">
+                            <img src="./assets/vision.png" alt>
                             <h1 class="text-xl font-black">Supervision</h1>
-                            <p>We find for you best place to you comfort zone.</p>
+                            <p>We find for you best place to you comfort
+                                zone.</p>
                         </div>
-                        <div class="bg-[#77AAEA] p-6 hover:scale-105 transition-all hover:shadow-2xl rounded-2xl">
-                            <img src="./assets/budget-planning.png" alt="">
+                        <div
+                            class="bg-[#77AAEA] p-6 hover:scale-105 transition-all hover:shadow-2xl rounded-2xl">
+                            <img src="./assets/budget-planning.png" alt>
                             <h1 class="text-xl font-black">Budget Planning</h1>
-                            <p>we can provide you your best budget Planning home . And we make sure that you be happy.</p>
+                            <p>we can provide you your best budget Planning home
+                                . And we make sure that you be happy.</p>
                         </div>
-                        
+
                     </div>
-                </section> 
-            </section>  
+                </section>
+            </section>
             <section id="portfolio" class="md:bg-white ">
                 <div class="text-center w-[90%] md:max-w-[1250px] mx-auto">
-                    <button class="bg-[#abef5d6a] px-6  py-2 my-4 transition-all hover:shadow-2xl hover:bg-[#ABEF5F] rounded-full mb-4 md:mt-28">
+                    <button
+                        class="bg-[#abef5d6a] px-6  py-2 my-4 transition-all hover:shadow-2xl hover:bg-[#ABEF5F] rounded-full mb-4 md:mt-28">
                         <i
                             class="fa-solid fa-arrow-right mr-2"></i>Our Latest
                         Portfolio</button>
-                    <h1 class="text-2xl font-black md:text-4xl">Our Latest Portfolio</h1>
-                    <p class="py-4 md:text-xl md:w-[70%] md:mx-auto">There is some of our latest portfolio , we make our client satisficed and they live with a long time of period , you can explore those portfolio.</p>
+                    <h1 class="text-2xl font-black md:text-4xl">Our Latest
+                        Portfolio</h1>
+                    <p class="py-4 md:text-xl md:w-[70%] md:mx-auto">There is
+                        some of our latest portfolio , we make our client
+                        satisficed and they live with a long time of period ,
+                        you can explore those portfolio.</p>
                 </div>
                 <div
-                class="md:bg-white py-12 md:py-28 md:bg-[#fff] bg-[#F4F4F4] w-[100%] px-4 md:max-w-[1250px] mx-auto">
-                    
-                
-                     <div class="md:grid md:grid-cols-8 md:gap-4 flex flex-col gap-4">
-                        <div class="md:col-span-5 transition-all hover:shadow-2xl bg-white p-4 border-2 border-inherit rounded-2xl flex gap-4 flex-col md:flex-row ">
-                            <img class="w-full" src="./assets/img1.png" alt="">
-                            <div class="flex items-start flex-col justify-between gap-4 py-2">
+                    class="md:bg-white py-12 md:py-28 md:bg-[#fff] bg-[#F4F4F4] w-[100%] px-4 md:max-w-[1250px] mx-auto">
+
+                    <div
+                        class="md:grid md:grid-cols-8 md:gap-4 flex flex-col gap-4">
+                        <div
+                            class="md:col-span-5 transition-all hover:shadow-2xl bg-white p-4 border-2 border-inherit rounded-2xl flex gap-4 flex-col md:flex-row ">
+                            <img class="w-full" src="./assets/img1.png" alt>
+                            <div
+                                class="flex items-start flex-col justify-between gap-4 py-2">
                                 <h6 class="font-bold md:text-xl">Commercial</h6>
-                                <p class="text-[#737373] md:text-base">Find your place with an immersive photo experience and the most listings, including things you won’t find anywhere else.</p>
-                            <button
-                                class="hover:gap-4 transition-all flex items-center justify-between gap-2 ">
-                                <h1 class="font-semibold text-xl">View Details</h1>
-                                <span
-                                    class="mr-2 w-8 h-8 bg-[#ABEF5F] rounded-full flex items-center justify-center">
-                                    <i class="fa-solid fa-arrow-right rotate-[-45deg]"></i>
-                                </span>
-                            </button>
-                   
-                            </div>   
-                        </div> 
-                        <div class="col-span-3 transition-all hover:shadow-2xl bg-white p-4 border-2 border-inherit rounded-2xl flex items-center justify-center">
-                            <img class="w-full" src="./assets/img2.png" alt="img2">
-                        </div>
-                        <div class="col-span-2 transition-all hover:shadow-2xl bg-white p-4 border-2 border-inherit rounded-2xl">
-                            <img class="w-full" src="./assets/img3.png" alt="">
-                        </div>
-                        <div class="col-span-4 transition-all hover:shadow-2xl bg-white p-4 border-2 border-inherit rounded-2xl flex gap-4 md:flex-row flex-col">
-                            <img class="md:w-[260px] w-full" src="./assets/article3.png" alt="">
-                            <div class="flex items-start flex-col justify-between gap-4 py-2">
-                                <h6 class="font-bold md:text-xl">Commercial</h6>
-                                <p class="text-[#737373] md:text-base">We’re creating a seamless online experience – from shopping on the largest rental network, to applying, to paying rent.</p>
+                                <p class="text-[#737373] md:text-base">Find your
+                                    place with an immersive photo experience and
+                                    the most listings, including things you
+                                    won’t find anywhere else.</p>
                                 <button
-                                class="hover:gap-4 transition-all flex items-center justify-between gap-2 ">
-                                <h1 class="font-semibold text-xl">View Details</h1>
-                                <span
-                                    class="mr-2 w-8 h-8 bg-[#ABEF5F] rounded-full flex items-center justify-center">
-                                    <i class="fa-solid fa-arrow-right rotate-[-45deg]"></i>
-                                </span>
-                            </button>
-                   
+                                    class="hover:gap-4 transition-all flex items-center justify-between gap-2 ">
+                                    <h1 class="font-semibold text-xl">View
+                                        Details</h1>
+                                    <span
+                                        class="mr-2 w-8 h-8 bg-[#ABEF5F] rounded-full flex items-center justify-center">
+                                        <i
+                                            class="fa-solid fa-arrow-right rotate-[-45deg]"></i>
+                                    </span>
+                                </button>
+
                             </div>
                         </div>
-                        <div class="col-span-2 transition-all hover:shadow-2xl bg-white p-4 border-2 border-inherit rounded-2xl">
-                            <img class="w-full" src="./assets/img5.png" alt="">
-                        </div>           
-                    </div>              
+                        <div
+                            class="col-span-3 transition-all hover:shadow-2xl bg-white p-4 border-2 border-inherit rounded-2xl flex items-center justify-center">
+                            <img class="w-full" src="./assets/img2.png"
+                                alt="img2">
+                        </div>
+                        <div
+                            class="col-span-2 transition-all hover:shadow-2xl bg-white p-4 border-2 border-inherit rounded-2xl">
+                            <img class="w-full" src="./assets/img3.png" alt>
+                        </div>
+                        <div
+                            class="col-span-4 transition-all hover:shadow-2xl bg-white p-4 border-2 border-inherit rounded-2xl flex gap-4 md:flex-row flex-col">
+                            <img class="md:w-[260px] w-full"
+                                src="./assets/article3.png" alt>
+                            <div
+                                class="flex items-start flex-col justify-between gap-4 py-2">
+                                <h6 class="font-bold md:text-xl">Commercial</h6>
+                                <p class="text-[#737373] md:text-base">We’re
+                                    creating a seamless online experience – from
+                                    shopping on the largest rental network, to
+                                    applying, to paying rent.</p>
+                                <button
+                                    class="hover:gap-4 transition-all flex items-center justify-between gap-2 ">
+                                    <h1 class="font-semibold text-xl">View
+                                        Details</h1>
+                                    <span
+                                        class="mr-2 w-8 h-8 bg-[#ABEF5F] rounded-full flex items-center justify-center">
+                                        <i
+                                            class="fa-solid fa-arrow-right rotate-[-45deg]"></i>
+                                    </span>
+                                </button>
+
+                            </div>
+                        </div>
+                        <div
+                            class="col-span-2 transition-all hover:shadow-2xl bg-white p-4 border-2 border-inherit rounded-2xl">
+                            <img class="w-full" src="./assets/img5.png" alt>
+                        </div>
+                    </div>
                 </div>
             </section>
-        </main>   
-        <section class="bg-[#f4f4f4] py-28">
+        </main>
+
+        <!-- extra meaning full section  -->
+
+        <section class="bg-[#f4f4f4] py-8 md:py-28">
             <div class="text-center">
-                <button class="px-6 transition-all hover:shadow-2xl hover:bg-[#ABEF5F] py-2 rounded-full mb-4 bg-[#E5F3D6]">
+                <button
+                    class="px-6 transition-all hover:shadow-2xl hover:bg-[#ABEF5F] py-2 rounded-full mb-4 bg-[#E5F3D6]">
                     <i class="fa-solid fa-arrow-right mr-2"></i>Customer
                     Testimonials</button>
                 <h1 class="text-2xl font-black md:text-4xl">Hear from Our Happy
                     Clients</h1>
                 <p
-                
-                    class="py-4 md:text-xl md:w-[50%] md:mx-auto">Discover
+                    class="py-4 w-[90%] mx-auto md:text-xl md:w-[50%] md:mx-auto">Discover
                     the experiences of our happy clients who trust us to deliver
                     exceptional results. Their feedback reflects our commitment
                     to exceeding expectations, building strong relationships,
@@ -240,7 +315,7 @@
             <div
                 class="w-[90%] md:max-w-[1250px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 py-12">
                 <div
-                    class="card aspect-w-1 aspect-h-1 bg-base-100 shadow-2xl flex flex-col">
+                    class="card aspect-w-1 aspect-h-1 bg-base-100 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] transition-all hover:scale-105 flex flex-col hover:shadow-3xl">
                     <figure class="p-4">
                         <img
                             src="https://images.unsplash.com/photo-1531539134685-27d854339120?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -269,7 +344,7 @@
                     </div>
                 </div>
                 <div
-                    class="card aspect-w-1 aspect-h-1 bg-base-100 shadow-2xl flex flex-col">
+                    class="card aspect-w-1 aspect-h-1 bg-base-100 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] transition-all hover:scale-105 flex flex-col">
                     <figure class="p-4">
                         <img
                             src="https://plus.unsplash.com/premium_photo-1688350808212-4e6908a03925?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -298,7 +373,7 @@
                     </div>
                 </div>
                 <div
-                    class="card aspect-w-1 aspect-h-1 bg-base-100 shadow-2xl flex flex-col">
+                    class="card aspect-w-1 aspect-h-1 bg-base-100 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] transition-all hover:scale-105 flex flex-col">
                     <figure class="p-4">
                         <img
                             src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -328,58 +403,85 @@
                 </div>
             </div>
         </section>
-         <section id="contact"
-            class="contact bg-no-repeat bg-cover flex flex-col items-center py-[100px]">
-
+        <section id="contact"
+            class="contact bg-[url(./assets/bg.jpg)] relative bg-no-repeat bg-cover flex flex-col items-center py-8 md:py-28">
+            <div
+                class="absolute inset-0 bg-[#222] bg-opacity-[2%] pointer-events-none"></div>
             <div class="text-center w-[90%] md:max-w-[1250px] mx-auto">
-                <button class="bg-[#abef5d6a] px-6  py-2 rounded-full mb-4 transition-all hover:shadow-2xl hover:bg-[#ABEF5F]">
+                <button
+                    class="bg-[#abef5d6a] px-6  py-2 rounded-full mb-4 transition-all hover:shadow-2xl hover:bg-[#ABEF5F]">
                     <i
-                        class="fa-solid fa-arrow-right mr-2"></i>Let’s Connect</button>
-                <h1 class="text-2xl font-black md:text-4xl">Let’s Discuss Next Project</h1>
-                <p class="py-4 md:text-xl md:w-[70%] md:mx-auto">If you are making an inquiry about your property listing on this web site, please make sure you reference at least your current information.</p>
+                        class="fa-solid fa-arrow-right mr-2"></i>Let’s
+                    Connect</button>
+                <h1 class="text-2xl font-black md:text-4xl">Let’s Discuss Next
+                    Project</h1>
+                <p class="py-4 md:text-xl md:w-[70%] md:mx-auto">If you are
+                    making an inquiry about your property listing on this web
+                    site, please make sure you reference at least your current
+                    information.</p>
             </div>
 
             <form
                 class="grid grid-cols-1 max-w-full md:grid-cols-2 gap-6 w-[90%] md:max-w-[1250px] mx-auto">
                 <input placeholder="First Name*" type="text"
-                    class="px-[20px] text-base py-4 outline-[#7a7a7a] shadow-xl rounded-full" required>
+                    class="px-[20px] text-base py-4 focus:outline-[#A4DAC3] shadow-xl rounded-full"
+                    required>
                 <input placeholder="Last Name*" type="text"
-                    class="px-[20px] text-base py-4 outline-[#7a7a7a] shadow-xl rounded-full" required>
+                    class="px-[20px] text-base py-4 focus:outline-[#A4DAC3] shadow-xl rounded-full"
+                    required>
                 <input placeholder="Phone Number*" type="number"
-                    class="px-[20px] text-base py-4 outline-[#7a7a7a] shadow-xl rounded-full" required>
+                    class="px-[20px] text-base py-4 focus:outline-[#A4DAC3] shadow-xl rounded-full"
+                    required>
                 <input placeholder="Email Number*" type="email"
-                    class="px-[20px] text-base py-4 outline-[#7a7a7a] shadow-xl rounded-full" required>
+                    class="px-[20px] text-base py-4 focus:outline-[#A4DAC3] shadow-xl rounded-full"
+                    required>
                 <textarea name id
-                    class="md:col-span-2 px-[20px] text-base py-4 outline-[#7a7a7a] shadow-xl rounded-3xl h-[244px]"
+                    class="md:col-span-2 px-[20px] text-base py-4 focus:outline-[#A4DAC3] shadow-xl rounded-3xl h-[244px]"
                     placeholder="Write your message here"></textarea>
-                <button type="submit" class="md:col-span-2 inline-flex items-center gap-2 text-xl font-black justify-center py-4 bg-[#ABEF5F] rounded-full">Send Mail
+                <button type="submit"
+                    class="book md:col-span-2 inline-flex bg-[#acef5fa5] transition-all items-center gap-2 text-xl font-black justify-center py-4 hover:bg-[#ABEF5F] rounded-full">Send
+                    Mail
                     <span
                         class="mr-2 w-8 h-8 bg-[#222] rounded-full flex items-center justify-center">
-                        <i class="fa-solid fa-arrow-right rotate-[-45deg] text-white"></i>
+                        <i
+                            class="fa-solid fa-arrow-right rotate-[-45deg] text-white"></i>
                     </span>
                 </button>
             </form>
         </section>
-        <footer class="w-full bg-[#1C1C1C] text-white py-[100px] text-center">
+        <footer class="w-full bg-[#1C1C1C] text-white py-28 text-center">
             <h1 class="logo text-2xl">
                 <span
                     class="inline-flex mr-2 w-12 h-12 bg-[#ABEF5F] rounded-full flex items-center justify-center">
-                    <i class="fa-solid fa-arrow-right rotate-[-45deg] text-black"></i>
+                    <i
+                        class="fa-solid fa-arrow-right rotate-[-45deg] text-black"></i>
                 </span><span class="font-black text-3xl  ">Rinterio</span>
             </h1>
-            <p class="w-[95%] md:w-[35%] mx-auto text-base my-8">Recommendations are based on your location and search activity, such as the homes you've viewed and saved and the filters you've used. We use this information to bring similar homes to your attention, so you don't miss out.</p>
+            <p class="w-[95%] md:w-[35%] mx-auto text-base my-8">Recommendations
+                are based on your location and search activity, such as the
+                homes you've viewed and saved and the filters you've used. We
+                use this information to bring similar homes to your attention,
+                so you don't miss out.</p>
             <div class="flex items-center justify-center my-8 flex-col gap-8">
                 <ul
-                class="flex md:flex-row flex-col items-center gap-8 md:gap-12 ">
-                    <li><a class="active font-bold text-base" href="#home">Home</a></li>
-                    <li><a href="#service">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="/">Blogs</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    class="flex md:flex-row flex-col items-center gap-8 md:gap-28 ">
+                    <li><a
+                            class="active hover:text-[#acef5fa5] transition-all font-bold text-base"
+                            href="#home">Home</a></li>
+                    <li><a class="hover:text-[#acef5fa5] transition-all"
+                            href="#service">Services</a></li>
+                    <li><a class="hover:text-[#acef5fa5] transition-all"
+                            href="#portfolio">Portfolio</a></li>
+                    <li><a class="hover:text-[#acef5fa5] transition-all"
+                            href="/">Blogs</a></li>
+                    <li><a class="hover:text-[#acef5fa5] transition-all"
+                            href="#contact">Contact Us</a></li>
                 </ul>
 
-                <div class="book flex items-center md:justify-between justify-center gap-3 w-[90%] md:w-auto cursor-pointer bg-[#ABEF5F] px-4 py-2 rounded-full">
-                    <h1 class="text-xl font-bold text-[#1c1c1c]">Book Consult</h1>
+                <div
+                    class="book flex items-center md:justify-between justify-center gap-3 w-[90%] md:w-auto cursor-pointer bg-[#ABEF5F] px-4 py-2 rounded-full">
+                    <h1 class="text-xl font-bold text-[#1c1c1c]">Book
+                        Consult</h1>
                     <span
                         class="inline-flex mr-2 w-12 h-12  bg-[#222] rounded-full flex items-center justify-center">
                         <i
@@ -387,7 +489,7 @@
                     </span>
                 </div>
             </div>
-            
-        </footer> 
+
+        </footer>
     </body>
 </html>
